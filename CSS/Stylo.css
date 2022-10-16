@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/*Reset"permite el control de los espacios que hay en cada uno de los titilos y parrafos y imagenes"*/
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+/*****************
+Estilo pricipal de mi sitio
+******************/
+html, 
+body{
+  font-family:'montserrat', 'sans-serif';
+  color: black;
+}
+.Redessociales{
+	background-color: blueviolet;
+	padding: 10px;
+}
+
+/****************
+Estilos generales de cabezeras
+***************/
+h1{
+	font-size: 1.5rem;
+}
+/****************
+Estilos generales de parafos
+***************/
+p{
+	font-size: 1 rem;
+	margin: 10 px 0;
+	line-height: 1,7;
+	font-weight: 300;
+}
+/****************
+Propiedad de textox
+***************/
+a{
+	text-decoration: none;
+}
+/****************
+utilizar clases
+**************/
+/*Para que nuestro proyectos pueda central como una caja*/
+.contenedor,.Redessociales{
+	margin: auto;
+	max-width: 1200px;
+	overflow: auto;
+	padding: 0 50px;
+}
+/*Trabajar con texto tipo large*/
+.large{
+	font-size: 1.25rem;
+}
+/*dar estilos*/
+.txt-Nombre{
+	color:#e9ae75;
+}
+.tex-1{
+	font-size: 4 ren;
+	color: black;
+}
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    background-color: aqua;
+    padding: 1em;
+    margin: 0 0 0.5 0;
+    font-size: 1.2rem;
+    border-radius: 3em;
+	border-radius: 20px;
+}
+.btn:hover{
+	background:blue ;
+	color: #fff;
+
+}
+
+.btn1{
+    background-color: #c67100;
+    color: white;
+}
+
+.btn2{
+    background-color: #ffa000;
+    color: white;
+}
+
+.btn3{
+    background-color: #ffd149;
+    color: whitesmoke;
+}
+/****************
+Empezar a trabajar por sección
+**************/
+/*General*/
+#GENERAL{
+	background:radial-gradient(at 10% 10px, #ca203d, rgb(37, 174, 87),rgb(17, 155, 88)) ;
+	height: 100vh;
+}
+/*MENU*/
+#menu{
+	color: #fff;
+	overflow: auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+#menu ul{
+	list-style: none;
+	float: right;
+}
+#menu ul li{
+	float: left;
+}
+#menu ul li a {
+	display: block;
+	padding: 20px;
+}
+#menu ul li a:hover{
+	color: black;
+}
+/*central */
+#central {
+	padding:50px 0;
+}
+.Fila2{
+	display: flex;
+}
+.tex-1 p.large{
+	padding-bottom: large ;
+}
+footer{
+    font-size: 0.75em;
+    text-align: center;
+    padding-top: 50px ;
+    color: none#ccc;
+    clear: both;
+}
+#redessociales{
+    width: 20px;
+    height: 5px;
+    margin: 0 5px 0 5px;
+}
+/***************
+Contactame
+***************/
+#contacto h2 {
+	text-align:center ;
+}
+#contacto p{
+	width: 500px;
+	margin: 0 auto;
+	padding-top: 10px;
+	padding-bottom: 50px;
+}
+.contacto1{
+	display: flex;
+	padding: 20px;
+}
+.contacto-img{
+	width: 50%;
+}
+.contacto-img img{
+	padding: 10px;
+}
+.contacto-img2{
+	width: 50%;
+	border: 1px solid #ca203d;
+	border-radius: 10px;
+	padding: 70px;
+
+}
+.contacto1 h4{
+	padding: 0.5cm;
+	text-align:center ;
+}
+.btn4{
+	width: 50%;
+}
+/****************
+VIDEOS DE MI CANAL
+****************/
+
+html, 
+body{
+  font-family:'montserrat', 'sans-serif';
+  color: black;
+}
+#Youtube h2{
+    display: block;
+    text-decoration: none;
+    background-color: blueviolet;
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+    padding: .5em;
+}
+.videos h2{
+	padding: 1cm;
+	text-align:center ;
+	color: #222103;
+}
+.videos{
+    width: 90%;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #a7c0cd;
+}
+/*****************
+MIS HABILIDADES
+*****************/
+#Habilidades{
+	padding:70px;
+	text-align: center;
+}
+#Habilidades p{
+	width: 500px; 
+	margin: 0 auto;
+	padding-top: 10px;
+	padding-bottom: 50px;
+}
+.Imagenes{
+	display: flex;
+	justify-content: center
+}
+.Imagenes img{
+	width: 90%;
+	padding:10px;
+	border-radius:20px ;
+}
