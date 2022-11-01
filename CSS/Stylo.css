@@ -16,6 +16,8 @@ body{
   color: black;
 }
 .Redessociales{
+	display: flex;
+	justify-content: center;
 	background-color: blueviolet;
 	padding: 10px;
 }
@@ -45,11 +47,13 @@ a{
 utilizar clases
 **************/
 /*Para que nuestro proyectos pueda central como una caja*/
-.contenedor,.Redessociales{
+.contenedor{
+	border: 1px solid black;
+	background-color: #da7a7a;
 	margin: auto;
 	max-width: 1200px;
 	overflow: auto;
-	padding: 0 50px;
+	padding: 10px 50px;
 }
 /*Trabajar con texto tipo large*/
 .large{
@@ -105,7 +109,7 @@ Empezar a trabajar por sección
 #menu{
 	color: #fff;
 	overflow: auto;
-	padding-top: 20px;
+	padding-top: 40px;
 	padding-bottom: 20px;
 }
 #menu ul{
@@ -114,6 +118,7 @@ Empezar a trabajar por sección
 }
 #menu ul li{
 	float: left;
+	padding: 15px;
 }
 #menu ul li a {
 	display: block;
@@ -139,44 +144,58 @@ footer{
     color: none#ccc;
     clear: both;
 }
-#redessociales{
-    width: 20px;
-    height: 5px;
-    margin: 0 5px 0 5px;
-}
+
+
 /***************
 Contactame
 ***************/
-#contacto h2 {
+#contacto{
+	border: 1px solid black;
+	background-color: rgb(202, 146, 196);
+	margin: 30px;
+	padding: 15px;
+
+}
+#contacto h2{
 	text-align:center ;
 }
 #contacto p{
 	width: 500px;
-	margin: 0 auto;
+	margin: 10px auto;
 	padding-top: 10px;
-	padding-bottom: 50px;
+	padding-bottom: 20px;
+	background-color: #774ac9;
+	border: 3px solid rgb(254, 49, 49);
+	
 }
 .contacto1{
 	display: flex;
-	padding: 20px;
+	flex-wrap: wrap;
+	background-color: #774ac9;
+	border: 3px solid rgb(254, 49, 49);
+	padding: 10px;
 }
 .contacto-img{
+	border: 3px solid rgb(254, 49, 49);
 	width: 50%;
 }
 .contacto-img img{
-	padding: 10px;
+	display: flex;
+	width: 75%;
+	justify-content: flex-end;
+	padding: 40px;
 }
 .contacto-img2{
 	width: 50%;
 	border: 1px solid #ca203d;
-	border-radius: 10px;
+	border-radius: 80px;
 	padding: 70px;
-
 }
 .contacto1 h4{
 	padding: 0.5cm;
 	text-align:center ;
 }
+v
 .btn4{
 	width: 50%;
 }
@@ -189,46 +208,94 @@ body{
   font-family:'montserrat', 'sans-serif';
   color: black;
 }
-#Youtube h2{
-    display: block;
-    text-decoration: none;
-    background-color: blueviolet;
-    font-size: 2rem;
-    color: white;
-    text-align: center;
-    padding: .5em;
-}
-.videos h2{
-	padding: 1cm;
-	text-align:center ;
-	color: #222103;
+#contenedor{
+	display: block;
+	flex-wrap: wrap;
+	border: 1px solid black;
+	background-color: #999999;
+	width: auto;
+    margin: 50px;
+	padding: 20px;
 }
 .videos{
-    width: 90%;
-    max-width: 600px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #a7c0cd;
+	text-align: center;
+	background-color: #c67100;
 }
+#sub_conte{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	border: 5px solid #3c0d94;
+	background-color: #9d859f;
+    margin: 10px 30px;
+	padding: 50px;
+}
+.img-1{
+	display: flex;
+	flex-wrap: wrap;
+	padding:30px;
+}
+
+
+
 /*****************
 MIS HABILIDADES
 *****************/
-#Habilidades{
-	padding:70px;
-	text-align: center;
+
+#conteiner{
+	display: block;
+	flex-wrap: wrap;
+	border: 1px solid black;
+	width: auto;
+    margin: 70px;
 }
-#Habilidades p{
-	width: 500px; 
-	margin: 0 auto;
-	padding-top: 10px;
-	padding-bottom: 50px;
-}
-.Imagenes{
+#Habilidad{
 	display: flex;
-	justify-content: center
+	justify-content: center;
+	align-items: center;
+    background: #2907c0;
+	text-align: center;
+    border: 1px solid #999999;
+    padding: 30px;
+	margin: 30px;
 }
-.Imagenes img{
-	width: 90%;
-	padding:10px;
-	border-radius:20px ;
+.Texto1{
+		font-size: 50px;
+		background-color: red;
+		line-height: 70px;
+}
+#section{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-items: center;
+	border: 5px solid #999999;
+	background: green;
+    margin: 10px;
+}
+.card{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	border: 5px solid #999999;
+	background-color: #c67100;
+    margin: 20px 30px;
+}
+.img-card{
+	display: flex;
+	flex-wrap: wrap;
+	justify-items: center;
+	
+}
+.body-card{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-end;
+	margin: 20px 30px;
+}
+.pie{
+	display: flex;
+	font-size: 500px;
+	border: 5px solid #999999;
+    margin: 20px;
 }
